@@ -1,0 +1,73 @@
+/*CSS styles*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #3d3d3d;
+}
+header {
+    background-color: blue;
+    height: 1000px;
+}
+a {
+    color: #ffffff;
+}
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+nav li {
+    padding: 10px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none; 
+    text-decoration: none;
+    font-size: 14px;
+    padding-top: 18px;
+}
+.logo {
+    padding-top: 10px;
+    font-size: 50px;
+    font-family: 'Hachi Maru Pop', cursive;
+    text-transform: uppercase; 
+    color: #fff;
+}
+.headerText {
+    color: #fff;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 200px; 
+}
+.blurb {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Potta One', cursive;
+}
+.Thingstodo {
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding: 50px,0px;
+}
+#surfboard {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+.image {
+    display: inline-block;
+    height: 100px;
+    width: 300px;
+}
+footer {
+    background-color: #00b2fd;
+    font-family: 'Potta One', cursive;
+    color: #fff;
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 15px;
+    margin-top: 10px;
+}
